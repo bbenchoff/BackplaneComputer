@@ -1,0 +1,14 @@
+Part Value   Device         Package       Description              
+JP1          .1 SOCKET      2X32          Samtek SLW-132-01-F-D                                                                                 
+JP3          M03LONGPADS    1X03_LONGPADS Header 3                                             
+LED1         LED3MM         LED3MM        LEDs                                                 
+R1           RESISTORKIT    AXIAL-0.3-KIT Resistor                                             
+S1           SWITCH-SPDTPTH SWITCH-SPDT   SPDT Switch                                          
+X1   FAC64S  FAC64S         FAC64S        CONNECTOR                                            
+X2   FAC64S  FAC64S         FAC64S        CONNECTOR                                            
+X3   FAC64S  FAC64S         FAC64S        CONNECTOR                                            
+X4   FAC64S  FAC64S         FAC64S        CONNECTOR                                            
+X5   FAC64S  FAC64S         FAC64S        CONNECTOR                                            
+X6   FAC64S  FAC64S         FAC64S        CONNECTOR                                            
+X7   FAC64S  FAC64S         FAC64S        CONNECTOR                                            
+X9   5566-20 5566-20        5566-20       Mini FIT connector
