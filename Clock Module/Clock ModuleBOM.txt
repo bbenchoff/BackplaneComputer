@@ -1,0 +1,5 @@
+Part Value Device Package         Description                              
+
+C1   22pf  CAPEZ  CAP-PTH-SMALLEZ Capacitor                                                           
+Q1   4 MHz        DIL08S          CRYSTAL RESONATOR                              
+U1   74265 74265  DIL16           74265 Quad Complementary Output Elements                            
