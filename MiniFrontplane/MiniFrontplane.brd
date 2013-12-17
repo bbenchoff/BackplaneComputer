@@ -117,14 +117,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0.8468375" y1="39.535021875" x2="2.1168375" y2="40.805021875" width="0.254" layer="46" curve="-90"/>
-<wire x1="2.1168375" y1="40.805021875" x2="98.6368375" y2="40.805021875" width="0.254" layer="46"/>
-<wire x1="98.6368375" y1="40.805021875" x2="99.9068375" y2="39.535021875" width="0.254" layer="46" curve="-90"/>
-<wire x1="2.1168375" y1="1.435021875" x2="98.6368375" y2="1.435021875" width="0.3048" layer="46"/>
-<wire x1="98.6368375" y1="1.435021875" x2="99.9068375" y2="2.705021875" width="0.3048" layer="46" curve="90"/>
-<wire x1="99.9068375" y1="2.705021875" x2="99.9068375" y2="39.535021875" width="0.3048" layer="46"/>
-<wire x1="2.1168375" y1="1.435021875" x2="0.8468375" y2="2.705021875" width="0.3048" layer="46" curve="-90"/>
-<wire x1="0.8468375" y1="2.705021875" x2="0.8468375" y2="39.535021875" width="0.3048" layer="46"/>
+<wire x1="2.3708375" y1="39.535021875" x2="3.6408375" y2="40.805021875" width="0.254" layer="46" curve="-90"/>
+<wire x1="3.6408375" y1="40.805021875" x2="97.3668375" y2="40.805021875" width="0.254" layer="46"/>
+<wire x1="97.3668375" y1="40.805021875" x2="98.0780375" y2="39.839821875" width="0.254" layer="46" curve="-90"/>
+<wire x1="3.9456375" y1="1.435021875" x2="97.1128375" y2="1.435021875" width="0.3048" layer="46"/>
+<wire x1="97.1128375" y1="1.435021875" x2="98.0780375" y2="3.009821875" width="0.3048" layer="46" curve="90"/>
+<wire x1="98.0780375" y1="3.009821875" x2="98.0780375" y2="39.839821875" width="0.3048" layer="46"/>
+<wire x1="3.9456375" y1="1.435021875" x2="2.3708375" y2="2.705021875" width="0.3048" layer="46" curve="-90"/>
+<wire x1="2.3708375" y1="2.705021875" x2="2.3708375" y2="39.535021875" width="0.3048" layer="46"/>
 <text x="8.4668375" y="6.515021875" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">C</text>
 <text x="8.4668375" y="3.975021875" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">A</text>
 <text x="11.0068375" y="9.055021875" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">32</text>
@@ -138,7 +138,6 @@
 <text x="40.682496875" y="13.0343625" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">MCP130</text>
 <text x="89.323546875" y="26.835021875" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">C&amp;K TP11-LT-C</text>
 <rectangle x1="81.02549375" y1="27.0947375" x2="81.8713125" y2="27.2639" layer="21" rot="R90"/>
-<text x="91.44" y="3.81" size="1.016" layer="22" rot="MR180">Benchoff13</text>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -711,10 +710,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$9" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="96.0968375" y="10.325021875" rot="MR90"/>
-<element name="U$10" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="4.6568375" y="10.325021875" rot="MR90"/>
-<element name="U$11" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="96.0968375" y="10.325021875" rot="MR90"/>
-<element name="U$12" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="4.6568375" y="10.325021875" rot="MR90"/>
+<element name="U$9" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="94.8268375" y="10.325021875" rot="MR90"/>
+<element name="U$10" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="5.9268375" y="10.325021875" rot="MR90"/>
+<element name="U$11" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="94.8268375" y="10.325021875" rot="MR90"/>
+<element name="U$12" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="5.9268375" y="10.325021875" rot="MR90"/>
 <element name="JP2" library="pinhead" package="2X16" value="" x="30.0568375" y="5.245021875"/>
 <element name="JP1" library="pinhead" package="2X16" value="" x="70.6968375" y="5.245021875" rot="R180"/>
 <element name="JP3" library="SparkFun-Connectors" package="1X03_LONGPADS" value="" x="17.3568375" y="14.135021875" rot="MR90"/>
@@ -752,14 +751,14 @@ design rules under a new name.</description>
 <wire x1="17.3568375" y1="33.185021875" x2="17.3568375" y2="26.835021875" width="0.6096" layer="1"/>
 <wire x1="17.3568375" y1="26.835021875" x2="17.3568375" y2="19.215021875" width="0.6096" layer="1"/>
 <polygon width="0.254" layer="1">
-<vertex x="0.8468375" y="2.705021875"/>
-<vertex x="0.8468375" y="39.535021875" curve="-90"/>
-<vertex x="2.1168375" y="40.805021875"/>
-<vertex x="98.6368375" y="40.805021875" curve="-90"/>
-<vertex x="99.9068375" y="39.535021875"/>
-<vertex x="99.9068375" y="2.705021875" curve="-90"/>
-<vertex x="98.6368375" y="1.435021875"/>
-<vertex x="2.1168375" y="1.435021875" curve="-90"/>
+<vertex x="2.3708375" y="2.705021875"/>
+<vertex x="2.3708375" y="39.535021875" curve="-90"/>
+<vertex x="3.6408375" y="40.805021875"/>
+<vertex x="97.3668375" y="40.805021875" curve="-90"/>
+<vertex x="98.0780375" y="39.535021875"/>
+<vertex x="98.0780375" y="2.705021875" curve="-90"/>
+<vertex x="97.1128375" y="1.435021875"/>
+<vertex x="4.5552375" y="1.435021875" curve="-90"/>
 </polygon>
 <contactref element="R4" pad="P$2"/>
 <contactref element="IC2" pad="7"/>
@@ -828,14 +827,14 @@ design rules under a new name.</description>
 <signal name="VCC">
 <contactref element="IC2" pad="14"/>
 <polygon width="0.254" layer="16">
-<vertex x="0.8468375" y="2.705021875"/>
-<vertex x="0.8468375" y="39.535021875" curve="-90"/>
-<vertex x="2.1168375" y="40.805021875"/>
-<vertex x="98.6368375" y="40.805021875" curve="-90"/>
-<vertex x="99.9068375" y="39.535021875"/>
-<vertex x="99.9068375" y="2.705021875" curve="-90"/>
-<vertex x="98.6368375" y="1.435021875"/>
-<vertex x="2.1168375" y="1.435021875" curve="-90"/>
+<vertex x="2.4216375" y="3.975021875"/>
+<vertex x="2.4216375" y="39.535021875" curve="-90"/>
+<vertex x="3.6916375" y="40.805021875"/>
+<vertex x="97.3668375" y="40.805021875" curve="-90"/>
+<vertex x="98.0780375" y="39.535021875"/>
+<vertex x="98.0780375" y="2.705021875" curve="-90"/>
+<vertex x="97.1128375" y="1.435021875"/>
+<vertex x="3.6916375" y="1.435021875" curve="-90"/>
 </polygon>
 <contactref element="C1" pad="1"/>
 <contactref element="U1" pad="2"/>

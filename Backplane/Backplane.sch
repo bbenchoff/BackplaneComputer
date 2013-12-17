@@ -2642,7 +2642,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP2" library="pinhead" deviceset="PINHD-2X16" device=""/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="KIT" value="220"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="KIT"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M03" device="LONGPADS"/>
 <part name="X9" library="con-molex" deviceset="5566-20" device=""/>
 </parts>
