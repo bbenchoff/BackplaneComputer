@@ -207,6 +207,8 @@
 <wire x1="130.175" y1="5.715" x2="19.685" y2="5.715" width="1.9304" layer="22"/>
 <text x="20.32" y="2.54" size="1.778" layer="21" font="vector" ratio="15">Backplane Blank Extention Board</text>
 <text x="111.76" y="2.54" size="1.778" layer="21" font="vector" ratio="15">Benchoff 2014</text>
+<dimension x1="5.08" y1="53.34" x2="152.4" y2="53.34" x3="78.74" y3="104.14" textsize="1.27" textratio="17" layer="16"/>
+<dimension x1="141.605" y1="95.25" x2="142.24" y2="2.54" x3="185.100475" y3="49.1907375" textsize="1.27" textratio="17" layer="16"/>
 </plain>
 <libraries>
 <library name="con-vg">
