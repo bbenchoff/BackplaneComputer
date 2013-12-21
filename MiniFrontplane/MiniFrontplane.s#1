@@ -2655,7 +2655,7 @@ Based on the following sources:
 <parts>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X16" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-2X16" device=""/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M03" device="LONGPADS" value="Samtec SLW-103-01-T-S "/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M03" device="LONGPADS"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="U$1" library="Benchoff" deviceset="MINITOGGLE" device=""/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="5MM"/>

@@ -3,7 +3,8 @@ Part Value      Device            Package         Description
 C1   4.7uF      CAPEZ             CAP-PTH-SMALLEZ Capacitor                                  
 IC2  74ACT14N   74ACT14N          DIL14           Hex schmitt trigger INVERTER               
 JP1             Terminal Strip    2x32            SAMTEC TLW-132-06-F-D                              
-JP3             M03LONGPADS       1X03_LONGPADS                                      
+JP3             Terminal Strip    1X3		  SAMTEC TLW-103-06-T-S 
+                                      
 LED1            LED5MM            LED5MM          LEDs                                       
 R1   150        RESISTORAXIAL-0.3 AXIAL-0.3       Resistor                                   
 R2   4k7        RESISTORAXIAL-0.3                 Resistor                                   
