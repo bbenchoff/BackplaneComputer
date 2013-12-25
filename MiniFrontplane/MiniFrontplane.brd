@@ -131,13 +131,15 @@
 <text x="89.7468375" y="9.055021875" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">1</text>
 <text x="92.2868375" y="6.515021875" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">C</text>
 <text x="92.2868375" y="3.975021875" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">A</text>
-<text x="83.3968375" y="30.560415625" size="1.778" layer="21" font="vector" ratio="15" rot="R90" align="center-left">Reset</text>
-<text x="8.4668375" y="26.835021875" size="1.778" layer="21" font="vector" ratio="15" rot="R90" align="center">Power</text>
+<text x="83.536384375" y="29.4472375" size="1.778" layer="21" font="vector" ratio="15" rot="R180" align="center">Reset</text>
+<text x="17.360978125" y="21.8780375" size="1.778" layer="21" font="vector" ratio="15" rot="R180" align="center">Power</text>
 <text x="50.3768375" y="24.295021875" size="1.4224" layer="21" font="vector" ratio="15" rot="R90" align="center">74LS14</text>
 <text x="32.810834375" y="27.564409375" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center-left">4.7uF</text>
 <text x="40.682496875" y="13.0343625" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">MCP130</text>
-<text x="89.323546875" y="26.835021875" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">C&amp;K TP11-LT-C</text>
+<text x="83.502578125" y="25.315546875" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">C&amp;K TP11SHZ</text>
 <rectangle x1="81.02549375" y1="27.0947375" x2="81.8713125" y2="27.2639" layer="21" rot="R90"/>
+<text x="11.5824" y="31.0896" size="1.016" layer="21" font="vector" ratio="15">C&amp;K 7101MDZQE</text>
+<hole x="89.8652" y="32.258" drill="5.5372"/>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -711,9 +713,6 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$9" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="94.8268375" y="10.325021875" rot="MR90"/>
-<element name="U$10" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="5.9268375" y="10.325021875" rot="MR90"/>
-<element name="U$11" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="94.8268375" y="10.325021875" rot="MR90"/>
-<element name="U$12" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="5.9268375" y="10.325021875" rot="MR90"/>
 <element name="JP2" library="pinhead" package="2X16" value="" x="30.0568375" y="5.245021875"/>
 <element name="JP1" library="pinhead" package="2X16" value="" x="70.6968375" y="5.245021875" rot="R180"/>
 <element name="JP3" library="SparkFun-Connectors" package="1X03_LONGPADS" value="Samtec SLW-103-01-T-S " x="17.3568375" y="14.135021875" rot="MR90"/>
@@ -727,6 +726,8 @@ design rules under a new name.</description>
 <element name="U1" library="SparkFun-DigitalIC" package="SOT23-3" value="MCP130SOT" x="37.6768375" y="12.865021875" rot="R180"/>
 <element name="U$2" library="Benchoff" package="MINITACT" value="MINITACT" x="83.3968375" y="26.835021875" rot="R270"/>
 <element name="IC2" library="74xx-eu" package="DIL14" value="74ACT14N" x="50.3768375" y="24.295021875" rot="R90"/>
+<element name="U$4" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="5.842" y="10.2616" rot="MR90"/>
+<element name="U$22" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="89.8652" y="32.258" rot="MR270"/>
 </elements>
 <signals>
 <signal name="GND">

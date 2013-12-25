@@ -1,15 +1,14 @@
 Part Value      Device            Package         Description
                              
 C1   4.7uF      CAPEZ             CAP-PTH-SMALLEZ Capacitor                                  
-IC2  74ACT14N   74ACT14N          DIL14           Hex schmitt trigger INVERTER               
+IC2  74LS14N    74LS14N           DIL14           Hex schmitt trigger INVERTER               
 JP1             Terminal Strip    2x32            SAMTEC TLW-132-06-F-D                              
-JP3             Terminal Strip    1X3		  SAMTEC TLW-103-06-T-S 
-                                      
-LED1            LED5MM            LED5MM          LEDs                                       
+JP3             Terminal Strip    1X3		  SAMTEC TLW-103-06-T-S                                       
+LED1            LED3MM            LED3MM          LEDs                                       
 R1   150        RESISTORAXIAL-0.3 AXIAL-0.3       Resistor                                   
 R2   4k7        RESISTORAXIAL-0.3                 Resistor                                   
 R3   27k        RESISTORAXIAL-0.3 	          Resistor                                   
 R4   27k        RESISTORAXIAL-0.3 	          Resistor                                   
-U$1  MINITOGGLE MINITOGGLE        MINITOGGLE      I found it in a drawer                                          
-U$2  MINITACT   MINITACT          MINITACT        C&K TP11-LT-C                 
-U1   MCP130SOT  MCP130T-460       SOT23-3         Open-drain microcontroller supervisor chip 
+S1   Toggle     C&K 7101MDZQE     MINITOGGLE      C&K 7101MDZQE                                          
+S1   Mom Switch C&K TP11SHZ       MINITACT        C&K TP11SHZ                 
+U1   MCP130SOT  MCP130T-460       SOT23-3         Open-drain microcontroller supervisor chip, 4.6 V
