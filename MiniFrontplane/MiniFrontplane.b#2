@@ -131,16 +131,15 @@
 <text x="89.7468375" y="9.055021875" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">1</text>
 <text x="92.2868375" y="6.515021875" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">C</text>
 <text x="92.2868375" y="3.975021875" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">A</text>
-<text x="83.536384375" y="28.8376375" size="1.778" layer="21" font="vector" ratio="15" rot="R180" align="center">Reset</text>
-<text x="17.360978125" y="21.2684375" size="1.778" layer="21" font="vector" ratio="15" rot="R180" align="center">Power</text>
+<text x="83.536384375" y="29.4472375" size="1.778" layer="21" font="vector" ratio="15" rot="R180" align="center">Reset</text>
+<text x="17.360978125" y="21.8780375" size="1.778" layer="21" font="vector" ratio="15" rot="R180" align="center">Power</text>
 <text x="50.3768375" y="24.295021875" size="1.4224" layer="21" font="vector" ratio="15" rot="R90" align="center">74LS14</text>
 <text x="32.810834375" y="27.564409375" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center-left">4.7uF</text>
 <text x="40.682496875" y="13.0343625" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">MCP130</text>
-<text x="83.502578125" y="24.705946875" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">C&amp;K TP11SHZ</text>
+<text x="83.502578125" y="25.315546875" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">C&amp;K TP11SHZ</text>
 <rectangle x1="81.02549375" y1="27.0947375" x2="81.8713125" y2="27.2639" layer="21" rot="R90"/>
-<text x="14.0208" y="30.48" size="1.016" layer="21" font="vector" ratio="15">C&amp;K 7101MDZQE</text>
-<hole x="89.8652" y="32.258" drill="2.8"/>
-<hole x="10.2616" y="32.3596" drill="2.8"/>
+<text x="11.5824" y="31.0896" size="1.016" layer="21" font="vector" ratio="15">C&amp;K 7101MDZQE</text>
+<hole x="89.8652" y="32.258" drill="5.5372"/>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -717,19 +716,18 @@ design rules under a new name.</description>
 <element name="JP2" library="pinhead" package="2X16" value="" x="30.0568375" y="5.245021875"/>
 <element name="JP1" library="pinhead" package="2X16" value="" x="70.6968375" y="5.245021875" rot="R180"/>
 <element name="JP3" library="SparkFun-Connectors" package="1X03_LONGPADS" value="Samtec SLW-103-01-T-S " x="17.3568375" y="14.135021875" rot="MR90"/>
-<element name="U$1" library="Benchoff" package="MINITOGGLE" value="MINITOGGLE" x="17.3568375" y="26.225421875" rot="R90"/>
-<element name="LED1" library="SparkFun-LED" package="LED5MM" value="" x="17.3568375" y="36.385421875" rot="R180"/>
+<element name="U$1" library="Benchoff" package="MINITOGGLE" value="MINITOGGLE" x="17.3568375" y="26.835021875" rot="R90"/>
+<element name="LED1" library="SparkFun-LED" package="LED5MM" value="" x="17.3568375" y="36.995021875" rot="R180"/>
 <element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="150" x="27.5168375" y="24.295021875" rot="R90"/>
 <element name="R2" library="SparkFun-Resistors" package="AXIAL-0.3" value="4k7" x="37.6768375" y="19.215021875" rot="R180"/>
 <element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3" value="27k" x="37.6768375" y="24.295021875"/>
 <element name="R4" library="SparkFun-Resistors" package="AXIAL-0.3" value="27k" x="37.6768375" y="29.375021875" rot="R180"/>
 <element name="C1" library="SparkFun-Passives" package="CAP-PTH-SMALLEZ" value="4.7uF" x="30.6918375" y="23.025021875" rot="R90"/>
 <element name="U1" library="SparkFun-DigitalIC" package="SOT23-3" value="MCP130SOT" x="37.6768375" y="12.865021875" rot="R180"/>
-<element name="U$2" library="Benchoff" package="MINITACT" value="MINITACT" x="83.3968375" y="26.225421875" rot="R270"/>
+<element name="U$2" library="Benchoff" package="MINITACT" value="MINITACT" x="83.3968375" y="26.835021875" rot="R270"/>
 <element name="IC2" library="74xx-eu" package="DIL14" value="74ACT14N" x="50.3768375" y="24.295021875" rot="R90"/>
 <element name="U$4" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="5.842" y="10.2616" rot="MR90"/>
 <element name="U$22" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="89.8652" y="32.258" rot="MR270"/>
-<element name="U$5" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="10.2616" y="32.3596" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -750,9 +748,9 @@ design rules under a new name.</description>
 <wire x1="17.3568375" y1="19.215021875" x2="12.2768375" y2="19.215021875" width="0.6096" layer="1"/>
 <wire x1="12.2768375" y1="19.215021875" x2="11.0068375" y2="17.945021875" width="0.6096" layer="1" curve="90"/>
 <wire x1="11.0068375" y1="17.945021875" x2="11.0068375" y2="6.515021875" width="0.6096" layer="1"/>
-<wire x1="16.0868375" y1="36.385421875" x2="17.3568375" y2="33.185021875" width="0.6096" layer="1" curve="-90"/>
-<wire x1="17.3568375" y1="33.185021875" x2="17.3568375" y2="26.225421875" width="0.6096" layer="1"/>
-<wire x1="17.3568375" y1="26.225421875" x2="17.3568375" y2="19.215021875" width="0.6096" layer="1"/>
+<wire x1="16.0868375" y1="36.995021875" x2="17.3568375" y2="33.185021875" width="0.6096" layer="1" curve="-90"/>
+<wire x1="17.3568375" y1="33.185021875" x2="17.3568375" y2="26.835021875" width="0.6096" layer="1"/>
+<wire x1="17.3568375" y1="26.835021875" x2="17.3568375" y2="19.215021875" width="0.6096" layer="1"/>
 <polygon width="0.254" layer="1">
 <vertex x="2.3708375" y="2.705021875"/>
 <vertex x="2.3708375" y="39.535021875" curve="-90"/>
@@ -772,7 +770,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="U$1" pad="P2"/>
 <contactref element="JP3" pad="1"/>
-<wire x1="21.8568375" y1="26.225421875" x2="21.8568375" y2="15.405021875" width="0.6096" layer="16"/>
+<wire x1="21.8568375" y1="26.835021875" x2="21.8568375" y2="15.405021875" width="0.6096" layer="16"/>
 <wire x1="21.8568375" y1="15.405021875" x2="20.5868375" y2="14.135021875" width="0.6096" layer="16" curve="-90"/>
 <wire x1="20.5868375" y1="14.135021875" x2="17.3568375" y2="14.135021875" width="0.6096" layer="16"/>
 </signal>
@@ -787,8 +785,8 @@ design rules under a new name.</description>
 <contactref element="R1" pad="P$2"/>
 <contactref element="LED1" pad="A"/>
 <wire x1="27.5168375" y1="28.105021875" x2="27.5168375" y2="35.725021875" width="0.6096" layer="1"/>
-<wire x1="27.5168375" y1="35.725021875" x2="26.2468375" y2="36.385421875" width="0.6096" layer="1" curve="90"/>
-<wire x1="26.2468375" y1="36.385421875" x2="18.6268375" y2="36.385421875" width="0.6096" layer="1"/>
+<wire x1="27.5168375" y1="35.725021875" x2="26.2468375" y2="36.995021875" width="0.6096" layer="1" curve="90"/>
+<wire x1="26.2468375" y1="36.995021875" x2="18.6268375" y2="36.995021875" width="0.6096" layer="1"/>
 </signal>
 <signal name="RESET">
 <contactref element="U1" pad="1"/>
@@ -811,7 +809,7 @@ design rules under a new name.</description>
 <wire x1="41.4868375" y1="29.375021875" x2="42.397484375" y2="28.464375" width="0.6096" layer="16"/>
 <wire x1="42.397484375" y1="28.464375" x2="43.295509375" y2="28.0924" width="0.6096" layer="16" curve="45"/>
 <wire x1="43.295509375" y1="28.0924" x2="79.599459375" y2="28.0924" width="0.6096" layer="16"/>
-<wire x1="79.599459375" y1="28.0924" x2="80.8568375" y2="26.225421875" width="0.6096" layer="16" curve="-90"/>
+<wire x1="79.599459375" y1="28.0924" x2="80.8568375" y2="26.835021875" width="0.6096" layer="16" curve="-90"/>
 </signal>
 <signal name="N$5">
 <contactref element="R3" pad="P$1"/>

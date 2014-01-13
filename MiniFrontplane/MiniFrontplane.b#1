@@ -139,8 +139,8 @@
 <text x="83.502578125" y="24.705946875" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">C&amp;K TP11SHZ</text>
 <rectangle x1="81.02549375" y1="27.0947375" x2="81.8713125" y2="27.2639" layer="21" rot="R90"/>
 <text x="14.0208" y="30.48" size="1.016" layer="21" font="vector" ratio="15">C&amp;K 7101MDZQE</text>
-<hole x="89.8652" y="32.258" drill="2.8"/>
-<hole x="10.2616" y="32.3596" drill="2.8"/>
+<hole x="89.8652" y="32.258" drill="5.5372"/>
+<hole x="10.2616" y="32.3596" drill="5.5372"/>
 </plain>
 <libraries>
 <library name="pinhead">
