@@ -1,14 +1,7 @@
-Part Value      Device            Package         Description
-                             
-C1   4.7uF      CAPEZ             CAP-PTH-SMALLEZ Capacitor                                  
-IC2  74LS14N    74LS14N           DIL14           Hex schmitt trigger INVERTER               
-JP1             Terminal Strip    2x32            SAMTEC TLW-132-06-F-D                              
-JP3             Terminal Strip    1X3		  SAMTEC TLW-103-06-T-S                                       
-LED1            LED3MM            LED3MM          LEDs                                       
-R1   150        RESISTORAXIAL-0.3 AXIAL-0.3       Resistor                                   
-R2   4k7        RESISTORAXIAL-0.3                 Resistor                                   
-R3   27k        RESISTORAXIAL-0.3 	          Resistor                                   
-R4   27k        RESISTORAXIAL-0.3 	          Resistor                                   
-S1   Toggle     C&K 7101MDZQE     MINITOGGLE      C&K 7101MDZQE                                          
-S1   Mom Switch C&K TP11SHZ       MINITACT        C&K TP11SHZ                 
-U1   MCP130SOT  MCP130T-460       SOT23-3         Open-drain microcontroller supervisor chip, 4.6 V
+Part Value      Device      Package       Description                                 
+                                   
+LED1 Green      LED5MM      LED5MM        LED                                         
+R1   220        RESISTORKIT AXIAL-0.3-KIT Resistor                                    
+S1   TP11SWITCH TP11SWITCH  TP11          C&K TP11 Switch                             
+S2   MINITOGGLE MINITOGGLE  MINITOGGLE    Mini Toggle Switch found in my parts drawer 
+U1   DS1813     DS1813      TO-92         Maxim DS1813 5V                                      
