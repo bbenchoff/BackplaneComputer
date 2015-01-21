@@ -2,6 +2,6 @@ Part Value      Device      Package       Description
                                    
 LED1 Green      LED5MM      LED5MM        LED                                         
 R1   220        RESISTORKIT AXIAL-0.3-KIT Resistor                                    
-S1   TP11SWITCH TP11SWITCH  TP11          C&K TP11 Switch                             
-S2   MINITOGGLE MINITOGGLE  MINITOGGLE    Mini Toggle Switch found in my parts drawer 
-U1   DS1813     DS1813      TO-92         Maxim DS1813 5V                                      
+S1   TP11SWITCH TP11SWITCH  Mini push     C&K TP11LTCQE                            
+S2   MINITOGGLE MINITOGGLE  Mini Toggle  C&K 7101SYCQE
+                                    
