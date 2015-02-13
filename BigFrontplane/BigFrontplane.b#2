@@ -63,6 +63,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -71,6 +72,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
@@ -79,12 +81,31 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -111,6 +132,11 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -980,70 +1006,50 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </package>
 </packages>
 </library>
-<library name="micro-philips">
-<description>&lt;b&gt;Philips Microcontroller Devices&lt;/b&gt;&lt;p&gt;
-http://www-eu2.semiconductors.com&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<library name="SparkFun-LED">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find discrete LEDs for illumination or indication, but no displays.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SO24">
-<description>&lt;b&gt;Small Outline Package&lt;/b&gt; 7.6 x 15.74 mm</description>
-<wire x1="7.78" y1="-3.7" x2="-7.78" y2="-3.7" width="0.2032" layer="51"/>
-<wire x1="-7.78" y1="-3.7" x2="-7.78" y2="-3.2" width="0.2032" layer="21"/>
-<wire x1="-7.78" y1="-3.2" x2="-7.78" y2="3.7" width="0.2032" layer="21"/>
-<wire x1="-7.78" y1="3.7" x2="7.78" y2="3.7" width="0.2032" layer="51"/>
-<wire x1="7.78" y1="-3.2" x2="-7.78" y2="-3.2" width="0.2032" layer="21"/>
-<wire x1="7.78" y1="3.7" x2="7.78" y2="-3.2" width="0.2032" layer="21"/>
-<wire x1="7.78" y1="-3.2" x2="7.78" y2="-3.7" width="0.2032" layer="21"/>
-<smd name="2" x="-5.715" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="13" x="6.985" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-6.985" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="-4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="-3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="14" x="5.715" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="12" x="6.985" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="11" x="5.715" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="-0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="9" x="3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="-1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="10" x="4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="15" x="4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="16" x="3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="17" x="1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="18" x="0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="19" x="-0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="20" x="-1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="21" x="-3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="22" x="-4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="23" x="-5.715" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="24" x="-6.985" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-8.128" y="-3.683" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-6.985" y="-0.508" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-7.23" y1="-5.32" x2="-6.74" y2="-3.8" layer="51"/>
-<rectangle x1="-5.96" y1="-5.32" x2="-5.47" y2="-3.8" layer="51"/>
-<rectangle x1="-4.69" y1="-5.32" x2="-4.2" y2="-3.8" layer="51"/>
-<rectangle x1="-3.42" y1="-5.32" x2="-2.93" y2="-3.8" layer="51"/>
-<rectangle x1="-2.15" y1="-5.32" x2="-1.66" y2="-3.8" layer="51"/>
-<rectangle x1="-0.88" y1="-5.32" x2="-0.39" y2="-3.8" layer="51"/>
-<rectangle x1="0.39" y1="-5.32" x2="0.88" y2="-3.8" layer="51"/>
-<rectangle x1="1.66" y1="-5.32" x2="2.15" y2="-3.8" layer="51"/>
-<rectangle x1="2.93" y1="-5.32" x2="3.42" y2="-3.8" layer="51"/>
-<rectangle x1="4.2" y1="-5.32" x2="4.69" y2="-3.8" layer="51"/>
-<rectangle x1="5.47" y1="-5.32" x2="5.96" y2="-3.8" layer="51"/>
-<rectangle x1="6.74" y1="-5.32" x2="7.23" y2="-3.8" layer="51"/>
-<rectangle x1="6.74" y1="3.8" x2="7.23" y2="5.32" layer="51"/>
-<rectangle x1="5.47" y1="3.8" x2="5.96" y2="5.32" layer="51"/>
-<rectangle x1="4.2" y1="3.8" x2="4.69" y2="5.32" layer="51"/>
-<rectangle x1="2.93" y1="3.8" x2="3.42" y2="5.32" layer="51"/>
-<rectangle x1="1.66" y1="3.8" x2="2.15" y2="5.32" layer="51"/>
-<rectangle x1="0.39" y1="3.8" x2="0.88" y2="5.32" layer="51"/>
-<rectangle x1="-0.88" y1="3.8" x2="-0.39" y2="5.32" layer="51"/>
-<rectangle x1="-2.15" y1="3.8" x2="-1.66" y2="5.32" layer="51"/>
-<rectangle x1="-3.42" y1="3.8" x2="-2.93" y2="5.32" layer="51"/>
-<rectangle x1="-4.69" y1="3.8" x2="-4.2" y2="5.32" layer="51"/>
-<rectangle x1="-5.96" y1="3.8" x2="-5.47" y2="5.32" layer="51"/>
-<rectangle x1="-7.23" y1="3.8" x2="-6.74" y2="5.32" layer="51"/>
+<package name="LED_RING">
+<description>&lt;h3&gt;LED Ring&lt;/h3&gt;
+http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Components/LED/Top-Up%20LED%20Ring%20LED-CCL-A.pdf&lt;br&gt;</description>
+<wire x1="-20" y1="-13" x2="-20" y2="13" width="0.1778" layer="21"/>
+<wire x1="-20" y1="13" x2="-11.7" y2="13" width="0.1778" layer="51"/>
+<wire x1="-20" y1="-13" x2="-11.7" y2="-13" width="0.1778" layer="51"/>
+<wire x1="20" y1="-13" x2="11.7" y2="-13" width="0.1778" layer="51"/>
+<wire x1="20" y1="-13" x2="20" y2="13" width="0.1778" layer="21"/>
+<wire x1="20" y1="13" x2="11.7" y2="13" width="0.1778" layer="51"/>
+<circle x="0" y="0" radius="17.5" width="0.1778" layer="21"/>
+<circle x="0" y="0" radius="11" width="0.127" layer="21"/>
+<pad name="16" x="-13.2" y="12.75" drill="1.2" diameter="2"/>
+<pad name="15" x="-14.5" y="15.05" drill="1.2" diameter="2"/>
+<pad name="14" x="-15.8" y="12.75" drill="1.2" diameter="2"/>
+<pad name="13" x="-17.1" y="15.05" drill="1.2" diameter="2"/>
+<pad name="COM3" x="-18.4" y="12.75" drill="1.2" diameter="2"/>
+<pad name="COM0" x="18.4" y="12.75" drill="1.2" diameter="2"/>
+<pad name="4" x="17.1" y="15.05" drill="1.2" diameter="2"/>
+<pad name="3" x="15.8" y="12.75" drill="1.2" diameter="2"/>
+<pad name="2" x="14.5" y="15.05" drill="1.2" diameter="2"/>
+<pad name="1" x="13.2" y="12.75" drill="1.2" diameter="2"/>
+<pad name="8" x="13.2" y="-12.75" drill="1.2" diameter="2"/>
+<pad name="7" x="14.5" y="-15.05" drill="1.2" diameter="2"/>
+<pad name="6" x="15.8" y="-12.75" drill="1.2" diameter="2"/>
+<pad name="5" x="17.1" y="-15.05" drill="1.2" diameter="2"/>
+<pad name="COM1" x="18.4" y="-12.75" drill="1.2" diameter="2"/>
+<pad name="COM2" x="-18.4" y="-12.75" drill="1.2" diameter="2"/>
+<pad name="12" x="-17.1" y="-15.05" drill="1.2" diameter="2"/>
+<pad name="11" x="-15.8" y="-12.75" drill="1.2" diameter="2"/>
+<pad name="10" x="-14.5" y="-15.05" drill="1.2" diameter="2"/>
+<pad name="9" x="-13.2" y="-12.75" drill="1.2" diameter="2"/>
+<text x="-5.08" y="6.89" size="1.778" layer="25">&gt;Name</text>
+<text x="-5.08" y="-8.16" size="1.778" layer="27">&gt;Value</text>
+<hole x="0" y="14" drill="4"/>
+<hole x="0" y="-14" drill="3"/>
 </package>
 </packages>
 </library>
@@ -1246,12 +1252,7 @@ design rules under a new name.</description>
 <element name="U$8" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="31.55429375" y="95.457009375" rot="MR180"/>
 <element name="U$9" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="163.422203125" y="6.557009375" rot="MR180"/>
 <element name="U$10" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="163.422203125" y="95.24491875" rot="MR180"/>
-<element name="IC1" library="micro-philips" package="SO24" value="SAA1064T" x="15.24" y="-2.54">
-<attribute name="OC_NEWARK" value="70R8648" x="15.24" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SAA1064T/N2,118" x="15.24" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="15.24" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="15.24" y="-2.54" size="1.778" layer="27" display="off"/>
-</element>
+<element name="LED2" library="SparkFun-LED" package="LED_RING" value="LED_RING" x="130.81" y="52.07"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1300,8 +1301,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="VCC">
 <contactref element="JP1" pad="4"/>
-<contactref element="IC1" pad="13"/>
-<wire x1="22.225" y1="2.06" x2="159.63549375" y2="14.3930875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="P$2"/>
@@ -1323,9 +1322,6 @@ design rules under a new name.</description>
 <wire x1="177.92349375" y1="76.1150875" x2="177.92349375" y2="71.0350875" width="0.8128" layer="16"/>
 <wire x1="177.92349375" y1="71.0350875" x2="181.35249375" y2="67.6060875" width="0.8128" layer="16"/>
 <wire x1="181.35249375" y1="67.6060875" x2="183.15589375" y2="67.6060875" width="0.8128" layer="16"/>
-</signal>
-<signal name="VEE">
-<contactref element="IC1" pad="12"/>
 </signal>
 </signals>
 </board>

@@ -1006,53 +1006,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </package>
 </packages>
 </library>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find discrete LEDs for illumination or indication, but no displays.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED_RING">
-<description>&lt;h3&gt;LED Ring&lt;/h3&gt;
-http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Components/LED/Top-Up%20LED%20Ring%20LED-CCL-A.pdf&lt;br&gt;</description>
-<wire x1="-20" y1="-13" x2="-20" y2="13" width="0.1778" layer="21"/>
-<wire x1="-20" y1="13" x2="-11.7" y2="13" width="0.1778" layer="51"/>
-<wire x1="-20" y1="-13" x2="-11.7" y2="-13" width="0.1778" layer="51"/>
-<wire x1="20" y1="-13" x2="11.7" y2="-13" width="0.1778" layer="51"/>
-<wire x1="20" y1="-13" x2="20" y2="13" width="0.1778" layer="21"/>
-<wire x1="20" y1="13" x2="11.7" y2="13" width="0.1778" layer="51"/>
-<circle x="0" y="0" radius="17.5" width="0.1778" layer="21"/>
-<circle x="0" y="0" radius="11" width="0.127" layer="21"/>
-<pad name="16" x="-13.2" y="12.75" drill="1.2" diameter="2"/>
-<pad name="15" x="-14.5" y="15.05" drill="1.2" diameter="2"/>
-<pad name="14" x="-15.8" y="12.75" drill="1.2" diameter="2"/>
-<pad name="13" x="-17.1" y="15.05" drill="1.2" diameter="2"/>
-<pad name="COM3" x="-18.4" y="12.75" drill="1.2" diameter="2"/>
-<pad name="COM0" x="18.4" y="12.75" drill="1.2" diameter="2"/>
-<pad name="4" x="17.1" y="15.05" drill="1.2" diameter="2"/>
-<pad name="3" x="15.8" y="12.75" drill="1.2" diameter="2"/>
-<pad name="2" x="14.5" y="15.05" drill="1.2" diameter="2"/>
-<pad name="1" x="13.2" y="12.75" drill="1.2" diameter="2"/>
-<pad name="8" x="13.2" y="-12.75" drill="1.2" diameter="2"/>
-<pad name="7" x="14.5" y="-15.05" drill="1.2" diameter="2"/>
-<pad name="6" x="15.8" y="-12.75" drill="1.2" diameter="2"/>
-<pad name="5" x="17.1" y="-15.05" drill="1.2" diameter="2"/>
-<pad name="COM1" x="18.4" y="-12.75" drill="1.2" diameter="2"/>
-<pad name="COM2" x="-18.4" y="-12.75" drill="1.2" diameter="2"/>
-<pad name="12" x="-17.1" y="-15.05" drill="1.2" diameter="2"/>
-<pad name="11" x="-15.8" y="-12.75" drill="1.2" diameter="2"/>
-<pad name="10" x="-14.5" y="-15.05" drill="1.2" diameter="2"/>
-<pad name="9" x="-13.2" y="-12.75" drill="1.2" diameter="2"/>
-<text x="-5.08" y="6.89" size="1.778" layer="25">&gt;Name</text>
-<text x="-5.08" y="-8.16" size="1.778" layer="27">&gt;Value</text>
-<hole x="0" y="14" drill="4"/>
-<hole x="0" y="-14" drill="3"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1252,7 +1205,6 @@ design rules under a new name.</description>
 <element name="U$8" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="31.55429375" y="95.457009375" rot="MR180"/>
 <element name="U$9" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="163.422203125" y="6.557009375" rot="MR180"/>
 <element name="U$10" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="163.422203125" y="95.24491875" rot="MR180"/>
-<element name="LED2" library="SparkFun-LED" package="LED_RING" value="LED_RING" x="130.81" y="52.07"/>
 </elements>
 <signals>
 <signal name="GND">

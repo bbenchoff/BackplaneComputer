@@ -1006,6 +1006,39 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </package>
 </packages>
 </library>
+<library name="adafruit">
+<packages>
+<package name="LED3MM">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+3 mm, round</description>
+<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361" cap="flat"/>
+<wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208" cap="flat"/>
+<wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165" cap="flat"/>
+<wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361" cap="flat"/>
+<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337" cap="flat"/>
+<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102" cap="flat"/>
+<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876" cap="flat"/>
+<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876" cap="flat"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108" cap="flat"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949" cap="flat"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022" cap="flat"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215" cap="flat"/>
+<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
+<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
+<wire x1="-2.5908" y1="1.7272" x2="-1.8542" y2="1.7272" width="0.127" layer="21"/>
+<wire x1="-2.2352" y1="1.3208" x2="-2.2352" y2="2.1082" width="0.127" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1205,6 +1238,150 @@ design rules under a new name.</description>
 <element name="U$8" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="31.55429375" y="95.457009375" rot="MR180"/>
 <element name="U$9" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="163.422203125" y="6.557009375" rot="MR180"/>
 <element name="U$10" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="163.422203125" y="95.24491875" rot="MR180"/>
+<element name="LED2" library="adafruit" package="LED3MM" value="" x="19.05" y="86.36" rot="R90"/>
+<element name="LED3" library="adafruit" package="LED3MM" value="" x="24.13" y="86.36" rot="R90"/>
+<element name="LED4" library="adafruit" package="LED3MM" value="" x="29.21" y="86.36" rot="R90"/>
+<element name="LED5" library="adafruit" package="LED3MM" value="" x="34.29" y="86.36" rot="R90"/>
+<element name="LED6" library="adafruit" package="LED3MM" value="" x="39.37" y="86.36" rot="R90"/>
+<element name="LED7" library="adafruit" package="LED3MM" value="" x="44.45" y="86.36" rot="R90"/>
+<element name="LED8" library="adafruit" package="LED3MM" value="" x="49.53" y="86.36" rot="R90"/>
+<element name="LED9" library="adafruit" package="LED3MM" value="" x="54.61" y="86.36" rot="R90"/>
+<element name="LED10" library="adafruit" package="LED3MM" value="" x="59.69" y="86.36" rot="R90"/>
+<element name="LED11" library="adafruit" package="LED3MM" value="" x="64.77" y="86.36" rot="R90"/>
+<element name="LED12" library="adafruit" package="LED3MM" value="" x="69.85" y="86.36" rot="R90"/>
+<element name="LED13" library="adafruit" package="LED3MM" value="" x="74.93" y="86.36" rot="R90"/>
+<element name="LED14" library="adafruit" package="LED3MM" value="" x="19.05" y="80.01" rot="R90"/>
+<element name="LED15" library="adafruit" package="LED3MM" value="" x="24.13" y="80.01" rot="R90"/>
+<element name="LED16" library="adafruit" package="LED3MM" value="" x="29.21" y="80.01" rot="R90"/>
+<element name="LED17" library="adafruit" package="LED3MM" value="" x="34.29" y="80.01" rot="R90"/>
+<element name="LED18" library="adafruit" package="LED3MM" value="" x="39.37" y="80.01" rot="R90"/>
+<element name="LED19" library="adafruit" package="LED3MM" value="" x="44.45" y="80.01" rot="R90"/>
+<element name="LED20" library="adafruit" package="LED3MM" value="" x="49.53" y="80.01" rot="R90"/>
+<element name="LED21" library="adafruit" package="LED3MM" value="" x="54.61" y="80.01" rot="R90"/>
+<element name="LED22" library="adafruit" package="LED3MM" value="" x="59.69" y="80.01" rot="R90"/>
+<element name="LED23" library="adafruit" package="LED3MM" value="" x="64.77" y="80.01" rot="R90"/>
+<element name="LED24" library="adafruit" package="LED3MM" value="" x="69.85" y="80.01" rot="R90"/>
+<element name="LED25" library="adafruit" package="LED3MM" value="" x="74.93" y="80.01" rot="R90"/>
+<element name="LED26" library="adafruit" package="LED3MM" value="" x="19.05" y="73.66" rot="R90"/>
+<element name="LED27" library="adafruit" package="LED3MM" value="" x="24.13" y="73.66" rot="R90"/>
+<element name="LED28" library="adafruit" package="LED3MM" value="" x="29.21" y="73.66" rot="R90"/>
+<element name="LED29" library="adafruit" package="LED3MM" value="" x="34.29" y="73.66" rot="R90"/>
+<element name="LED30" library="adafruit" package="LED3MM" value="" x="39.37" y="73.66" rot="R90"/>
+<element name="LED31" library="adafruit" package="LED3MM" value="" x="44.45" y="73.66" rot="R90"/>
+<element name="LED32" library="adafruit" package="LED3MM" value="" x="49.53" y="73.66" rot="R90"/>
+<element name="LED33" library="adafruit" package="LED3MM" value="" x="54.61" y="73.66" rot="R90"/>
+<element name="LED34" library="adafruit" package="LED3MM" value="" x="59.69" y="73.66" rot="R90"/>
+<element name="LED35" library="adafruit" package="LED3MM" value="" x="64.77" y="73.66" rot="R90"/>
+<element name="LED36" library="adafruit" package="LED3MM" value="" x="69.85" y="73.66" rot="R90"/>
+<element name="LED37" library="adafruit" package="LED3MM" value="" x="74.93" y="73.66" rot="R90"/>
+<element name="LED38" library="adafruit" package="LED3MM" value="" x="19.05" y="67.31" rot="R90"/>
+<element name="LED39" library="adafruit" package="LED3MM" value="" x="24.13" y="67.31" rot="R90"/>
+<element name="LED40" library="adafruit" package="LED3MM" value="" x="29.21" y="67.31" rot="R90"/>
+<element name="LED41" library="adafruit" package="LED3MM" value="" x="34.29" y="67.31" rot="R90"/>
+<element name="LED42" library="adafruit" package="LED3MM" value="" x="39.37" y="67.31" rot="R90"/>
+<element name="LED43" library="adafruit" package="LED3MM" value="" x="44.45" y="67.31" rot="R90"/>
+<element name="LED44" library="adafruit" package="LED3MM" value="" x="49.53" y="67.31" rot="R90"/>
+<element name="LED45" library="adafruit" package="LED3MM" value="" x="54.61" y="67.31" rot="R90"/>
+<element name="LED46" library="adafruit" package="LED3MM" value="" x="59.69" y="67.31" rot="R90"/>
+<element name="LED47" library="adafruit" package="LED3MM" value="" x="64.77" y="67.31" rot="R90"/>
+<element name="LED48" library="adafruit" package="LED3MM" value="" x="69.85" y="67.31" rot="R90"/>
+<element name="LED49" library="adafruit" package="LED3MM" value="" x="74.93" y="67.31" rot="R90"/>
+<element name="LED50" library="adafruit" package="LED3MM" value="" x="19.05" y="60.96" rot="R90"/>
+<element name="LED51" library="adafruit" package="LED3MM" value="" x="24.13" y="60.96" rot="R90"/>
+<element name="LED52" library="adafruit" package="LED3MM" value="" x="29.21" y="60.96" rot="R90"/>
+<element name="LED53" library="adafruit" package="LED3MM" value="" x="34.29" y="60.96" rot="R90"/>
+<element name="LED54" library="adafruit" package="LED3MM" value="" x="39.37" y="60.96" rot="R90"/>
+<element name="LED55" library="adafruit" package="LED3MM" value="" x="44.45" y="60.96" rot="R90"/>
+<element name="LED56" library="adafruit" package="LED3MM" value="" x="49.53" y="60.96" rot="R90"/>
+<element name="LED57" library="adafruit" package="LED3MM" value="" x="54.61" y="60.96" rot="R90"/>
+<element name="LED58" library="adafruit" package="LED3MM" value="" x="59.69" y="60.96" rot="R90"/>
+<element name="LED59" library="adafruit" package="LED3MM" value="" x="64.77" y="60.96" rot="R90"/>
+<element name="LED60" library="adafruit" package="LED3MM" value="" x="69.85" y="60.96" rot="R90"/>
+<element name="LED61" library="adafruit" package="LED3MM" value="" x="74.93" y="60.96" rot="R90"/>
+<element name="LED62" library="adafruit" package="LED3MM" value="" x="19.05" y="54.61" rot="R90"/>
+<element name="LED63" library="adafruit" package="LED3MM" value="" x="24.13" y="54.61" rot="R90"/>
+<element name="LED64" library="adafruit" package="LED3MM" value="" x="29.21" y="54.61" rot="R90"/>
+<element name="LED65" library="adafruit" package="LED3MM" value="" x="34.29" y="54.61" rot="R90"/>
+<element name="LED66" library="adafruit" package="LED3MM" value="" x="39.37" y="54.61" rot="R90"/>
+<element name="LED67" library="adafruit" package="LED3MM" value="" x="44.45" y="54.61" rot="R90"/>
+<element name="LED68" library="adafruit" package="LED3MM" value="" x="49.53" y="54.61" rot="R90"/>
+<element name="LED69" library="adafruit" package="LED3MM" value="" x="54.61" y="54.61" rot="R90"/>
+<element name="LED70" library="adafruit" package="LED3MM" value="" x="59.69" y="54.61" rot="R90"/>
+<element name="LED71" library="adafruit" package="LED3MM" value="" x="64.77" y="54.61" rot="R90"/>
+<element name="LED72" library="adafruit" package="LED3MM" value="" x="69.85" y="54.61" rot="R90"/>
+<element name="LED73" library="adafruit" package="LED3MM" value="" x="74.93" y="54.61" rot="R90"/>
+<element name="LED74" library="adafruit" package="LED3MM" value="" x="19.05" y="48.26" rot="R90"/>
+<element name="LED75" library="adafruit" package="LED3MM" value="" x="24.13" y="48.26" rot="R90"/>
+<element name="LED76" library="adafruit" package="LED3MM" value="" x="29.21" y="48.26" rot="R90"/>
+<element name="LED77" library="adafruit" package="LED3MM" value="" x="34.29" y="48.26" rot="R90"/>
+<element name="LED78" library="adafruit" package="LED3MM" value="" x="39.37" y="48.26" rot="R90"/>
+<element name="LED79" library="adafruit" package="LED3MM" value="" x="44.45" y="48.26" rot="R90"/>
+<element name="LED80" library="adafruit" package="LED3MM" value="" x="49.53" y="48.26" rot="R90"/>
+<element name="LED81" library="adafruit" package="LED3MM" value="" x="54.61" y="48.26" rot="R90"/>
+<element name="LED82" library="adafruit" package="LED3MM" value="" x="59.69" y="48.26" rot="R90"/>
+<element name="LED83" library="adafruit" package="LED3MM" value="" x="64.77" y="48.26" rot="R90"/>
+<element name="LED84" library="adafruit" package="LED3MM" value="" x="69.85" y="48.26" rot="R90"/>
+<element name="LED85" library="adafruit" package="LED3MM" value="" x="74.93" y="48.26" rot="R90"/>
+<element name="LED86" library="adafruit" package="LED3MM" value="" x="19.05" y="41.91" rot="R90"/>
+<element name="LED87" library="adafruit" package="LED3MM" value="" x="24.13" y="41.91" rot="R90"/>
+<element name="LED88" library="adafruit" package="LED3MM" value="" x="29.21" y="41.91" rot="R90"/>
+<element name="LED89" library="adafruit" package="LED3MM" value="" x="34.29" y="41.91" rot="R90"/>
+<element name="LED90" library="adafruit" package="LED3MM" value="" x="39.37" y="41.91" rot="R90"/>
+<element name="LED91" library="adafruit" package="LED3MM" value="" x="44.45" y="41.91" rot="R90"/>
+<element name="LED92" library="adafruit" package="LED3MM" value="" x="49.53" y="41.91" rot="R90"/>
+<element name="LED93" library="adafruit" package="LED3MM" value="" x="54.61" y="41.91" rot="R90"/>
+<element name="LED94" library="adafruit" package="LED3MM" value="" x="59.69" y="41.91" rot="R90"/>
+<element name="LED95" library="adafruit" package="LED3MM" value="" x="64.77" y="41.91" rot="R90"/>
+<element name="LED96" library="adafruit" package="LED3MM" value="" x="69.85" y="41.91" rot="R90"/>
+<element name="LED97" library="adafruit" package="LED3MM" value="" x="74.93" y="41.91" rot="R90"/>
+<element name="LED98" library="adafruit" package="LED3MM" value="" x="19.05" y="35.56" rot="R90"/>
+<element name="LED99" library="adafruit" package="LED3MM" value="" x="24.13" y="35.56" rot="R90"/>
+<element name="LED100" library="adafruit" package="LED3MM" value="" x="29.21" y="35.56" rot="R90"/>
+<element name="LED101" library="adafruit" package="LED3MM" value="" x="34.29" y="35.56" rot="R90"/>
+<element name="LED102" library="adafruit" package="LED3MM" value="" x="39.37" y="35.56" rot="R90"/>
+<element name="LED103" library="adafruit" package="LED3MM" value="" x="44.45" y="35.56" rot="R90"/>
+<element name="LED104" library="adafruit" package="LED3MM" value="" x="49.53" y="35.56" rot="R90"/>
+<element name="LED105" library="adafruit" package="LED3MM" value="" x="54.61" y="35.56" rot="R90"/>
+<element name="LED106" library="adafruit" package="LED3MM" value="" x="59.69" y="35.56" rot="R90"/>
+<element name="LED107" library="adafruit" package="LED3MM" value="" x="64.77" y="35.56" rot="R90"/>
+<element name="LED108" library="adafruit" package="LED3MM" value="" x="69.85" y="35.56" rot="R90"/>
+<element name="LED109" library="adafruit" package="LED3MM" value="" x="74.93" y="35.56" rot="R90"/>
+<element name="LED110" library="adafruit" package="LED3MM" value="" x="19.05" y="29.21" rot="R90"/>
+<element name="LED111" library="adafruit" package="LED3MM" value="" x="24.13" y="29.21" rot="R90"/>
+<element name="LED112" library="adafruit" package="LED3MM" value="" x="29.21" y="29.21" rot="R90"/>
+<element name="LED113" library="adafruit" package="LED3MM" value="" x="34.29" y="29.21" rot="R90"/>
+<element name="LED114" library="adafruit" package="LED3MM" value="" x="39.37" y="29.21" rot="R90"/>
+<element name="LED115" library="adafruit" package="LED3MM" value="" x="44.45" y="29.21" rot="R90"/>
+<element name="LED116" library="adafruit" package="LED3MM" value="" x="49.53" y="29.21" rot="R90"/>
+<element name="LED117" library="adafruit" package="LED3MM" value="" x="54.61" y="29.21" rot="R90"/>
+<element name="LED118" library="adafruit" package="LED3MM" value="" x="59.69" y="29.21" rot="R90"/>
+<element name="LED119" library="adafruit" package="LED3MM" value="" x="64.77" y="29.21" rot="R90"/>
+<element name="LED120" library="adafruit" package="LED3MM" value="" x="69.85" y="29.21" rot="R90"/>
+<element name="LED121" library="adafruit" package="LED3MM" value="" x="74.93" y="29.21" rot="R90"/>
+<element name="LED122" library="adafruit" package="LED3MM" value="" x="19.05" y="22.86" rot="R90"/>
+<element name="LED123" library="adafruit" package="LED3MM" value="" x="24.13" y="22.86" rot="R90"/>
+<element name="LED124" library="adafruit" package="LED3MM" value="" x="29.21" y="22.86" rot="R90"/>
+<element name="LED125" library="adafruit" package="LED3MM" value="" x="34.29" y="22.86" rot="R90"/>
+<element name="LED126" library="adafruit" package="LED3MM" value="" x="39.37" y="22.86" rot="R90"/>
+<element name="LED127" library="adafruit" package="LED3MM" value="" x="44.45" y="22.86" rot="R90"/>
+<element name="LED128" library="adafruit" package="LED3MM" value="" x="49.53" y="22.86" rot="R90"/>
+<element name="LED129" library="adafruit" package="LED3MM" value="" x="54.61" y="22.86" rot="R90"/>
+<element name="LED130" library="adafruit" package="LED3MM" value="" x="59.69" y="22.86" rot="R90"/>
+<element name="LED131" library="adafruit" package="LED3MM" value="" x="64.77" y="22.86" rot="R90"/>
+<element name="LED132" library="adafruit" package="LED3MM" value="" x="69.85" y="22.86" rot="R90"/>
+<element name="LED133" library="adafruit" package="LED3MM" value="" x="74.93" y="22.86" rot="R90"/>
+<element name="LED134" library="adafruit" package="LED3MM" value="" x="19.05" y="16.51" rot="R90"/>
+<element name="LED135" library="adafruit" package="LED3MM" value="" x="24.13" y="16.51" rot="R90"/>
+<element name="LED136" library="adafruit" package="LED3MM" value="" x="29.21" y="16.51" rot="R90"/>
+<element name="LED137" library="adafruit" package="LED3MM" value="" x="34.29" y="16.51" rot="R90"/>
+<element name="LED138" library="adafruit" package="LED3MM" value="" x="39.37" y="16.51" rot="R90"/>
+<element name="LED139" library="adafruit" package="LED3MM" value="" x="44.45" y="16.51" rot="R90"/>
+<element name="LED140" library="adafruit" package="LED3MM" value="" x="49.53" y="16.51" rot="R90"/>
+<element name="LED141" library="adafruit" package="LED3MM" value="" x="54.61" y="16.51" rot="R90"/>
+<element name="LED142" library="adafruit" package="LED3MM" value="" x="59.69" y="16.51" rot="R90"/>
+<element name="LED143" library="adafruit" package="LED3MM" value="" x="64.77" y="16.51" rot="R90"/>
+<element name="LED144" library="adafruit" package="LED3MM" value="" x="69.85" y="16.51" rot="R90"/>
+<element name="LED145" library="adafruit" package="LED3MM" value="" x="74.93" y="16.51" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
